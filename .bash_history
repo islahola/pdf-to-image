@@ -52,3 +52,40 @@ ls
 ls
 ./soal2_extractfile contoh.pdf 1 1 900 100
 ./soal2_extractfile contoh.pdf 1  900 100
+ls
+./soal2_extractfile 
+./soal2_extractfile contoh.pdf 1 1 900 100
+./soal2_extractfile contoh.pdf 1 1 1 1
+./soal2_extractfile contoh.pdf 1 1 900 100
+./soal2_extractfile contoh.pdf 1 1 900 
+
+./soal2_extractfile contoh.pdf 1 1 900 
+./soal2_extractfile contoh.pdf 1 1 900 100
+sudo apt install git
+git init
+git status
+git commit -m "first commit"
+git config --global user.email islah.khofifah@gmail.com
+git config --global user.name islahola
+git add .
+git status
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/islahola/islah.git
+git push -u origin main
+git status
+git pull
+ls
+./soal2_extractfile islah.pdf 1 1 900 100
+./soal2_extractfile islah.pdf, 1, 1, 900, 100
+ls
+./ekstraksi_teks nama_berkas.pdf nilai_halaman_awal  nilai_halaman_akhir  nilai_density nilai_quality
+./soal2_extractfile nama_berkas.pdf nilai_halaman_awal  nilai_halaman_akhir  nilai_density nilai_quality
+./soal2_extractfile nislahpdf nilai_halaman_awal  nilai_halaman_akhir  nilai_density nilai_quality
+./soal2_extractfile islah.pdf 1 1 900 100
+./soal2_extractfile islah.pdf 1 1 800 100
+./soal2_extractfile islah.pdf 1 1
+./soal2_extractfile islah.pdf 1 1 900 100
+git add .
+git commit -m "oke"
+git pull
