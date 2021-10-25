@@ -134,3 +134,17 @@ convert-im6.q16: no images defined `1.jpeg' @ error/convert.c/ConvertImageComman
 clear
 sudo sed -i_bak 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml
 sudo sed -i_bak 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' \
+sudo mv /etc/ImageMagick-6/policy.xml_bak /etc/ImageMagick-6/policy.xml
+./soal2_extractfile islah.pdf 1 1
+sudo sed -i_bak 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml
+./soal2_extractfile islah.pdf 1 1
+git add .
+git commit -m "test "
+git push
+git pull
+./soal2_extractfile ola.pdf 1 1
+git add .
+git commit -m "dah"
+git push
+git pull
+./soal2_extractfile olislahdf 1 1
