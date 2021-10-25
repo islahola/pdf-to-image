@@ -211,3 +211,52 @@ Open repository: /home/ubuntu
 > git show --textconv :soal2_extractfile.c
 > git ls-files --stage -- /home/ubuntu/soal2_extractfile.c
 > git cat-file -s 4bb997e787c254778ea33f30b32602698269345c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git ls-files --stage -- /home/ubuntu/soal2_extractfile.c
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git cat-file -s 0633c3c2104e1627d9aae0781cdc128ae39d4ce1
+> git config --get commit.template
+> git show --textconv :soal2_extractfile.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/ubuntu/soal2_extractfile.c
+> git config --get commit.template
+> git cat-file -s 0633c3c2104e1627d9aae0781cdc128ae39d4ce1
+> git show --textconv :soal2_extractfile.c
+> git status -z -u
+> git ls-files --stage -- /home/ubuntu/soal2_extractfile.c
+> git cat-file -s 0633c3c2104e1627d9aae0781cdc128ae39d4ce1
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :soal2_extractfile.c
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/ubuntu/soal2_extractfile.c
+> git cat-file -s 0633c3c2104e1627d9aae0781cdc128ae39d4ce1
+> git show --textconv :soal2_extractfile.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :11t.txt
+> git ls-files --stage -- /home/ubuntu/11t.txt
+> git check-ignore -v -z --stdin
+> git show --textconv :soal2_extractfile.c
+> git ls-files --stage -- /home/ubuntu/soal2_extractfile.c
+> git cat-file -s 0633c3c2104e1627d9aae0781cdc128ae39d4ce1
+> git check-ignore -v -z --stdin

@@ -38,7 +38,7 @@ int main(int argc, char *argv[]){
    		strcat(com, page);
    		strcat(com, ".pdf");
    		strcat(com, page);
-   		strcat(com, ".jpeg");   
+   		strcat(com, ".jpg");   
    		printf("%s \n", com);		
    		system(com);
    		com[0]=0;
@@ -49,7 +49,7 @@ int main(int argc, char *argv[]){
    		strcat(com, "tesseract ");
    		sprintf(page, "%d", i);
    		strcat(com, page);
-   		strcat(com, ".jpeg ");
+   		strcat(com, ".jpg ");
    		strcat(com, page);
    		strcat(com, "t");
    		printf("%s \n", com);

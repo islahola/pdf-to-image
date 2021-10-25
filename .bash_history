@@ -96,3 +96,41 @@ git commit -m "oke"
 git status
 git push
 git status
+./soal2_extractfile 1.pdf 1 1 900 100
+./soal2_extractfile 900 100 1.pdf 1.jpeg
+./soal2_extractfile 900 100
+ls
+./soal2_extractfile 900 100 1.pdf 1.jpeg
+./soal2_extractfile 1.pdf 1 1
+sudo apt install tesseract-ocr -y
+./soal2_extractfile 1.pdf 1 1
+./soal2_extractfile 1.pdf 1 1 900 100
+./soal2_extractfile 1.pdf 1 1
+./soal2_extractfile 1.pdf 1 1 900
+./soal2_extractfile 1.pdf 1 1
+sudo apt list pdf*
+./soal2_extractfile 1.pdf 1 1
+sudo apt install pdftk
+sudo apt install imagemagick
+./soal2_extractfile 1.pdf 1 1
+cls
+clear
+./soal2_extractfile 1.pdf 1 1
+./soal2_extractfile 1.pdf 1 1 900 100
+./soal2_extractfile 1.pdf 0 1 900 100
+./soal2_extractfile 1.pdf 0 1
+./soal2_extractfile islah.pdf 0 1
+git add .
+git commit -m "tyes"
+git push
+git pull
+./soal2_extractfile islah.pdf 1 1
+./soal2_extractfile islah.pdf 11 11
+./soal2_extractfile islah.pdf 1 1
+./soal2_extractfile islah.pdf 11 11
+./soal2_extractfile islah.pdf 1 1
+convert-im6.q16: attempt to perform an operation not allowed by the security policy `PDF' @ error/constitute.c/IsCoderAuthorized/408.
+convert-im6.q16: no images defined `1.jpeg' @ error/convert.c/ConvertImageCommand/3258.
+clear
+sudo sed -i_bak 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml
+sudo sed -i_bak 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' \
