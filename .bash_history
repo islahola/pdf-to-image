@@ -89,3 +89,10 @@ ls
 git add .
 git commit -m "oke"
 git pull
+git status
+git add .
+git status
+git commit -m "oke"
+git status
+git push
+git status
