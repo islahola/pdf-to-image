@@ -148,3 +148,23 @@ git commit -m "dah"
 git push
 git pull
 ./soal2_extractfile olislahdf 1 1
+./soal2_extractfile islah.pdf 1 1
+git add .
+git commit -m "ganti"
+git push
+git pull
+cd soal_a
+ls
+gcc listener.c -o  listener
+ls
+gcc talker.c -o talker
+ls
+clear
+ls
+./soal2_extractfile islah.pdf 1 1
+ip config
+ipconfig
+clear
+ifconfig
+curl ifconfig.me
+ping 180.243.137.129

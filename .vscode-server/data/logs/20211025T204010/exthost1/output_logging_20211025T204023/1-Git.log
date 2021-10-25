@@ -1,0 +1,71 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/ubuntu
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :soal_a/listener.c
+> git ls-files --stage -- /home/ubuntu/soal_a/listener.c
+> git cat-file -s 4b94ae01befcc4ab8742280009130878442bd64d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :soal_a/talker.c
+> git ls-files --stage -- /home/ubuntu/soal_a/talker.c
+> git cat-file -s 4b38a69bd4309643a2b22ad36b7448f0e21d8d8d
+> git show --textconv :soal_a/listener.c
+> git ls-files --stage -- /home/ubuntu/soal_a/listener.c
+> git cat-file -s 4b94ae01befcc4ab8742280009130878442bd64d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :soal_a/talker.c
+> git ls-files --stage -- /home/ubuntu/soal_a/talker.c
+> git cat-file -s 4b38a69bd4309643a2b22ad36b7448f0e21d8d8d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :soal_a/listener.c
+> git ls-files --stage -- /home/ubuntu/soal_a/listener.c
+> git cat-file -s 4b94ae01befcc4ab8742280009130878442bd64d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :soal_a/talker.c
+> git ls-files --stage -- /home/ubuntu/soal_a/talker.c
+> git cat-file -s 4b38a69bd4309643a2b22ad36b7448f0e21d8d8d
+> git show --textconv :soal_a/listener.c
+> git ls-files --stage -- /home/ubuntu/soal_a/listener.c
+> git cat-file -s 4b94ae01befcc4ab8742280009130878442bd64d
+> git show --textconv :soal_a/talker.c
+> git ls-files --stage -- /home/ubuntu/soal_a/talker.c
+> git cat-file -s 4b38a69bd4309643a2b22ad36b7448f0e21d8d8d

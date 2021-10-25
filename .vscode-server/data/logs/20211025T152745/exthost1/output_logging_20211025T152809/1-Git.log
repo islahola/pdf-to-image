@@ -403,3 +403,51 @@ Open repository: /home/ubuntu
 > git ls-files --stage -- /home/ubuntu/1t.txt
 > git show --textconv :1t.txt
 > git ls-files --stage -- /home/ubuntu/1t.txt
+> git status -z -u
+> git ls-files --stage -- /home/ubuntu/1t.txt
+> git cat-file -s c25f334d14a793388efe91f04dd28623823fb081
+> git show --textconv :1t.txt
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/ubuntu/1t.txt
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git cat-file -s c25f334d14a793388efe91f04dd28623823fb081
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :1t.txt
+> git status -z -u
+> git ls-files --stage -- /home/ubuntu/1t.txt
+> git cat-file -s c25f334d14a793388efe91f04dd28623823fb081
+> git show --textconv :1t.txt
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/ubuntu/1t.txt
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git cat-file -s c25f334d14a793388efe91f04dd28623823fb081
+> git config --get commit.template
+> git show --textconv :1t.txt
+> git ls-files --stage -- /home/ubuntu/1t.txt
+> git cat-file -s c25f334d14a793388efe91f04dd28623823fb081
+> git show --textconv :1t.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :soal2_extractfile.c
+> git ls-files --stage -- /home/ubuntu/soal2_extractfile.c
+> git cat-file -s b40236e0f9d821af7c5df522d0e387bf97c16b63
