@@ -35,3 +35,31 @@ Opening repository for path='/home/ubuntu' failed; ex=Failed to execute git {
   "stdout": "",
   "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
 }
+> git rev-parse --git-dir
+Open repository: /home/ubuntu
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :soal2_extractfile.c
+> git ls-files --stage -- /home/ubuntu/soal2_extractfile.c
+> git cat-file -s d003fc3f4c8f0c3dce911a4f029467be4b4abad8
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :soal2_extractfile.c
+> git ls-files --stage -- /home/ubuntu/soal2_extractfile.c
+> git cat-file -s d003fc3f4c8f0c3dce911a4f029467be4b4abad8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

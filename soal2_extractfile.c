@@ -11,7 +11,7 @@
 int main(int argc, char *argv[]){
 	if(argc!=4) printf("%s", "anda tidak memasukkan nama berkas pdf, halaman awal, halaman akhir dengan lengkap");
 	char com[100];
-	char page[4];
+	char page[5];
 	int begin = atoi(argv[2]);
 	int end = atoi(argv[3]);
 	com[0]=0;
